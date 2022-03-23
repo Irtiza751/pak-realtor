@@ -6,10 +6,11 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 // Here forgot is the forgot password screen.
 import Forgot from "./pages/Forgot";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="text-slate-800">
       <Router>
         <Routes>
           <Route path="/" element={<Explore />} />
@@ -20,8 +21,9 @@ function App() {
           <Route path="/forgot-password" element={<Forgot />} />
         </Routes>
         {/* Navbar */}
+        <Navbar />
       </Router>
-    </>
+    </div>
   );
 }
 

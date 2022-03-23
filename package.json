@@ -8,14 +8,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "feather-icons-react": "^0.5.0",
     "firebase": "^9.6.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
     "react-router-dom": "^6.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
     "vite": "^2.8.0"
   }
 }

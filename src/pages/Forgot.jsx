@@ -1,3 +1,3 @@
 export default function Forgot() {
-  return <h1>Forgot Password</h1>;
+  return <h1 className="title">Forgot Password</h1>;
 }

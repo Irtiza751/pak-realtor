@@ -1,3 +1,3 @@
 export default function Offers() {
-  return <h1>Offers</h1>;
+  return <h1 className="title">Offers</h1>;
 }
